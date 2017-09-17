@@ -37,12 +37,20 @@ public class Http2SimpleHttpHandler extends BaseThingHandler {
                         String urlString = (String) getConfig().get(Http2BindingConstants.PARAMETER_URL_ON);
                         String response = callUrl(channelUID, command, urlString);
                         logger.debug("Result for ON: >>>{}<<<", response);
+
+                        if (response != null) {
+                            updateState(Http2BindingConstants.CHANNEL_SWITCH, OnOffType.ON);
+                        }
                     }, 0, TimeUnit.SECONDS);
                 } else if (command == OnOffType.OFF) {
                     scheduler.schedule(() -> {
                         String urlString = (String) getConfig().get(Http2BindingConstants.PARAMETER_URL_OFF);
                         String response = callUrl(channelUID, command, urlString);
                         logger.debug("Result for OFF: >>>{}<<<", response);
+
+                        if (response != null) {
+                            updateState(Http2BindingConstants.CHANNEL_SWITCH, OnOffType.OFF);
+                        }
                     }, 0, TimeUnit.SECONDS);
                 }
                 break;
