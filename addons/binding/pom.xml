@@ -29,16 +29,17 @@
     <module>org.openhab.binding.dlinksmarthome</module>
     <module>org.openhab.binding.dscalarm</module>
     <module>org.openhab.binding.exec</module>
-    <module>org.openhab.binding.feed</module>
     <module>org.openhab.binding.feed.test</module>
+    <module>org.openhab.binding.feed</module>
     <module>org.openhab.binding.folding</module>
     <module>org.openhab.binding.freebox</module>
     <module>org.openhab.binding.gardena</module>
+    <module>org.openhab.binding.globalcache</module>
     <module>org.openhab.binding.harmonyhub</module>
     <module>org.openhab.binding.hdanywhere</module>
     <module>org.openhab.binding.hdpowerview</module>
     <module>org.openhab.binding.homematic</module>
-    <module>org.openhab.binding.globalcache</module>
+    <module>org.openhab.binding.http2</module>
     <module>org.openhab.binding.ipp</module>
     <module>org.openhab.binding.jeelink</module>
     <module>org.openhab.binding.keba</module>
@@ -47,18 +48,18 @@
     <module>org.openhab.binding.lgtvserial</module>
     <module>org.openhab.binding.loxone</module>
     <module>org.openhab.binding.lutron</module>
-    <module>org.openhab.binding.max</module>
     <module>org.openhab.binding.max.test</module>
+    <module>org.openhab.binding.max</module>
     <module>org.openhab.binding.meteostick</module>
     <module>org.openhab.binding.miele</module>
     <module>org.openhab.binding.mihome</module>
     <module>org.openhab.binding.milight</module>
     <module>org.openhab.binding.minecraft</module>
-    <module>org.openhab.binding.netatmo</module>
-    <module>org.openhab.binding.network</module>
-    <module>org.openhab.binding.network.test</module>
-    <module>org.openhab.binding.nest</module>
     <module>org.openhab.binding.nest.test</module>
+    <module>org.openhab.binding.nest</module>
+    <module>org.openhab.binding.netatmo</module>
+    <module>org.openhab.binding.network.test</module>
+    <module>org.openhab.binding.network</module>
     <module>org.openhab.binding.nikohomecontrol</module>
     <module>org.openhab.binding.oceanic</module>
     <module>org.openhab.binding.onebusaway</module>
@@ -69,9 +70,9 @@
     <module>org.openhab.binding.plugwise</module>
     <module>org.openhab.binding.pulseaudio</module>
     <module>org.openhab.binding.regoheatpump</module>
-    <module>org.openhab.binding.rme</module>
-    <module>org.openhab.binding.rfxcom</module>
     <module>org.openhab.binding.rfxcom.test</module>
+    <module>org.openhab.binding.rfxcom</module>
+    <module>org.openhab.binding.rme</module>
     <module>org.openhab.binding.russound</module>
     <module>org.openhab.binding.samsungtv</module>
     <module>org.openhab.binding.sensebox</module>
@@ -80,8 +81,8 @@
     <module>org.openhab.binding.smaenergymeter</module>
     <module>org.openhab.binding.squeezebox</module>
     <module>org.openhab.binding.synopanalyzer</module>
-    <module>org.openhab.binding.systeminfo</module>
     <module>org.openhab.binding.systeminfo.test</module>
+    <module>org.openhab.binding.systeminfo</module>
     <module>org.openhab.binding.tankerkoenig</module>
     <module>org.openhab.binding.tellstick</module>
     <module>org.openhab.binding.tesla</module>
