@@ -12,6 +12,7 @@ import static org.openhab.binding.tellstick.TellstickBindingConstants.*;
 
 import java.util.Hashtable;
 
+import org.eclipse.jdt.annotation.Nullable;
 import org.eclipse.smarthome.config.discovery.DiscoveryService;
 import org.eclipse.smarthome.core.thing.Bridge;
 import org.eclipse.smarthome.core.thing.Thing;
@@ -53,7 +54,7 @@ public class TellstickHandlerFactory extends BaseThingHandlerFactory {
     }
 
     @Override
-    protected ThingHandler createHandler(Thing thing) {
+    protected @Nullable ThingHandler createHandler(Thing thing) {
         if (thing.getThingTypeUID().equals(TELLDUSCOREBRIDGE_THING_TYPE)) {
             TelldusCoreBridgeHandler handler = new TelldusCoreBridgeHandler((Bridge) thing);
             registerDeviceDiscoveryService(handler);
