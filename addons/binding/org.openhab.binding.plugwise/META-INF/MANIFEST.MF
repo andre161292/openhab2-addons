@@ -13,6 +13,7 @@ Import-Package:
  gnu.io,
  org.apache.commons.io,
  org.apache.commons.lang,
+ org.eclipse.jdt.annotation,
  org.eclipse.smarthome.config.core,
  org.eclipse.smarthome.config.discovery,
  org.eclipse.smarthome.core.common,

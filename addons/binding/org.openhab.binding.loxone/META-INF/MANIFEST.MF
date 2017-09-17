@@ -12,6 +12,7 @@ Import-Package:
  com.google.gson.annotations,
  org.apache.commons.codec,
  org.apache.commons.codec.binary,
+ org.eclipse.jdt.annotation,
  org.eclipse.jetty.http,
  org.eclipse.jetty.util,
  org.eclipse.jetty.util.component,
